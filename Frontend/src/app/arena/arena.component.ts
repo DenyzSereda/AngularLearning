@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Tree } from './Obstacles/Tree';
 import { Player } from './Player';
 import { Rock } from './Obstacles/Rock';
+import { TextAndNumbers } from './TextAndNumbers';
 import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
@@ -168,7 +169,6 @@ export class ArenaComponent implements OnInit {
     for (let i = 0; i < this.numTree1s; i++) {
       this.trees[i].drawTree(this.centerX, this.centerY);
     }
-
   }
 
   ngOnInit(): void {
@@ -192,5 +192,7 @@ export class ArenaComponent implements OnInit {
     this.player = new Player(this.ctx, 950, 480);
 
     setInterval(() => this.drawAll(), 50);
+
+    TextAndNumbers.drawTexts(this.ctx);
   }
 }
