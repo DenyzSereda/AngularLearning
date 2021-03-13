@@ -3,6 +3,7 @@ import { Tree } from './Obstacles/Tree';
 import { Player } from './Player';
 import { Rock } from './Obstacles/Rock';
 import { TextAndNumbers } from './TextAndNumbers';
+import { ArrayFunctions } from './codility/ArrayFunctions';
 import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
@@ -194,5 +195,6 @@ export class ArenaComponent implements OnInit {
     setInterval(() => this.drawAll(), 50);
 
     TextAndNumbers.drawTexts(this.ctx);
+    ArrayFunctions.test();
   }
 }

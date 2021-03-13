@@ -27,6 +27,65 @@ export class TextAndNumbers {
             }
             console.log(text);
         }
+        // let n = 1235235256;
+        // let a = 0;
+        // let b = 1;
+        // while (a <= n) {
+        //     console.log(`${a}`);
+        //     let c = a + b;
+        //     a = b;
+        //     b = c;
+
+        // }
+
+        // 2,4,8,16,32,64
+
+        // let v = 2;
+        // let n = 19000000000000000000000000000000000000;
+        // while (v <= n) {
+        //     console.log(`${v}`);
+        //     v = v * 2;
+        // }
+
+
+        // let days = { mon: 'Monday', tue: 'Tuesday', wed: 'Wednesday' };//             ’thu’: ’Thursday’, ’fri’: ’Friday’, ’sat’: ’Saturday’,             ’sun’: ’Sunday’}
+        // for (let day in days) {
+        //     console.log(`${day} stands for ${days[day]}`);
+        // };
+
+
+        // let n = 22
+        //     ;
+
+        // for (var i = 1; i < n + 1; i += 1) {
+        //     var text = '';
+        //     for (var j = 0; j < i; j++) {
+        //         text += '*';
+        //     }
+        //     console.log(text);
+        // }
+
+        // let n1 = 11;
+
+        // for (var i = n1; i > 0; i--) {
+        //     let text = '';
+        //     for (var j = 0; j < n1 - i; j += 1) {
+        //         text += ' ';
+        //     }
+        //     for (var k = 0; k < 2 * i - 1; k += 1) {
+        //         text += '*';
+        //     }
+        //     console.log(text);
+        // }
+
+        // let nOrg = 1142546143651234124244;
+        // let n2 = nOrg;
+        // let result = 0
+        // while (n2 > 1) {
+        //     n2 = n2 / 10;
+        //     result += 1;
+        // }
+        // console.log(`number '${nOrg}' has ${ result } digits`);
 
         // function reverseString(str) {
         //     var splitString: string[] = str.split("");
