@@ -4,6 +4,7 @@ import { Player } from './Player';
 import { Rock } from './Obstacles/Rock';
 import { TextAndNumbers } from './TextAndNumbers';
 import { ArrayFunctions } from './codility/ArrayFunctions';
+import { Complexity } from './codility/Complexity';
 import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
@@ -196,5 +197,6 @@ export class ArenaComponent implements OnInit {
 
     TextAndNumbers.drawTexts(this.ctx);
     ArrayFunctions.test();
+    Complexity.test();
   }
 }
